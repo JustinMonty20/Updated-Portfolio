@@ -9,26 +9,52 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/style.css">
 
     <title>My Dev Portfolio</title>
 </head>
 
 <body class="bg-light">
     <div>
-        <div class="row bg-white shadow sm">
-            <div class="col-md-6 text-center text-white"> 
-                <h1 class = "p-4 mb-0 bg-info">Justin Montgomery</h1>
+        <div class="row no-gutters bg-white shadow sm">
+            <div class="col-md-6 text-center text-white">
+                <h1 class="float-md-left p-4 mb-0 ml-md-3 bg-info">Justin Montgomery</h1>
             </div>
-            <div class="col-md-6">About | Portfolio| Contact</div>
+            <div class="col-md-6 d-flex flex-row justify-content-center align-items-center">
+                <a class="m-3 ml-md-auto text-muted" href="index.html">About</a> |
+                <a class="m-3 text-muted" href="portfolio.html">Portfolio</a> |
+                <a class="m-3 text-muted" href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="card m-3 mb-5=">
+                    <div class="card-body text-muted">
+                        <h1 class="text-info">About Me</h1>
+                        <hr>
+                        <div class="img-container float-md-left mr-md-3 mb-3">
+                            <img class="img-fluid" src="./assets/images/20191206_010009.JPG"
+                                alt="Image of myself.">
+                        </div>
+                        <p>My name is Justin Montgomery. I am a 23 year old aspiring software developer located in
+                            Charlotte, North Carolina.
+                            Graduated from UNCC with a BS in Organizational Management in 2019. My major goal is to
+                            create a string of SaaS businesses.
+                        </p>
+                        <p>
+                            Currently enrolled in a Coding Bootcamp @ UNCC. Graduating in April of this year and looking
+                            to secure a Jr. Dev position somewhere in the area.
+                            My hobbies are playing soccer and chess along with lifting weights and reading.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="row">
             <div class="col">
-                About Me
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                Footer
+                <div class="copyright border-top border-info bg-secondary py-4 text-center text-white">
+                    &copy; Copyright ...
+                </div>
             </div>
         </div>
     </div>
