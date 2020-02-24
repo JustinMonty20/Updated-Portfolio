@@ -6,7 +6,10 @@
     bottom: 0;
     width: 100%;
 }
-
+.button{
+    height: 20px;
+    color: blue;
+}
 @media screen and (min-width: 760px) {
     .img-container {
         width: 50%
