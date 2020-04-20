@@ -1,9 +1,7 @@
 # Updated-Portfolio
 ![](./assets/images/deployed.png)
 
-Here is my Updated Portfolio!
-
-Recently added all my work from the first part of the bootcamp.
+Justin Montgomery's Dev Portfolio. All of my assignemts and projects overt the duration of the bootcamp in one place. 
 
 
 Link to Deployed site below
